@@ -98,3 +98,31 @@ section{
     margin: 0px 10px;
     border: 3px solid rgb(1, 1, 20);
 }
+.six-cards-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
+    margin-top: 20px;
+}
+.single-cards{
+    height: 250px;
+}
+.single-cards img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-cards:hover img{
+    transform: scale(1.1);
+   
+    border-radius: 20px;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
+}
