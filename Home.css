@@ -126,3 +126,34 @@ section{
     color: gray;
     margin-top: 10px;
 }
+/* previous next gape code start here */
+.Privious-next-button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.Privious-next-button-container a{
+    text-decoration: none;
+    color: white;
+}
+.Privious-next-button-container h3 a{
+    background-color: #1da15f;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Privious-next-button-container h3 a:hover{
+    background-color: #4af597;
+}
+.Privious-next-button-container .four-boxs a{
+    background-color:white;
+    margin: 0px 10px;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px so rgb(94, 91, 91);
+}
+.Privious-next-button-container .four-boxs a:first-child{
+    background-color: #1da15f;
+    color: white;
+}
