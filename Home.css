@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #440568;
+    background-color: #440 568;
     padding: 10px 200px;
     border-bottom: 4px solid darkmagenta;
 }
@@ -69,4 +69,32 @@ nav ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* Main section start here */
+main{
+    background-color: #771f92;
+}
+section{
+    width: 1300px;
+    margin: auto;
+    padding: 70px 0px 50px 0px;
+}
+.letest-video-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.letest-video-text{
+    font-size: 30px;
+    color: rgb(36, 173, 116);
+}
+.pages{
+    color:rgb(36, 173, 116);
+}
+.pages span{
+    background-color: #fff;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin: 0px 10px;
+    border: 3px solid rgb(1, 1, 20);
 }
